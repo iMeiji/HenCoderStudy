@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HenCoderStudy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="practice01">1-1 绘制基础</string>
+    <string name="practice02">1-2 Paint 详解</string>
+
+
+</resources>
