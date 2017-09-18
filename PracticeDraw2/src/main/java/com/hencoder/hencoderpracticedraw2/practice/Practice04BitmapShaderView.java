@@ -1,5 +1,6 @@
 package com.hencoder.hencoderpracticedraw2.practice;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -15,16 +16,8 @@ import com.hencoder.hencoderpracticedraw2.R;
 
 public class Practice04BitmapShaderView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
-
-    {
-        // 用 Paint.setShader(shader) 设置一个 BitmapShader
-        // Bitmap: R.drawable.batman
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.batman);
-        Shader shader = new BitmapShader(bitmap,
-                Shader.TileMode.CLAMP,
-                Shader.TileMode.CLAMP);
-        paint.setShader(shader);
-    }
+    Bitmap bigBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.batman);
+    Bitmap smailBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.batman_120);
 
     public Practice04BitmapShaderView(Context context) {
         super(context);
@@ -38,10 +31,35 @@ public class Practice04BitmapShaderView extends View {
         super(context, attrs, defStyleAttr);
     }
 
+    @SuppressLint("DrawAllocation")
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        Shader bigShader = new BitmapShader(bigBitmap,
+                Shader.TileMode.CLAMP,
+                Shader.TileMode.CLAMP);
+        Shader smailShader = new BitmapShader(smailBitmap,
+                Shader.TileMode.MIRROR,
+                Shader.TileMode.MIRROR);
+        Shader smailShader2 = new BitmapShader(smailBitmap,
+                Shader.TileMode.REPEAT,
+                Shader.TileMode.REPEAT);
+        paint.setShader(bigShader);
+
         canvas.drawCircle(200, 200, 200, paint);
+
+        canvas.save();
+        canvas.translate(0, 450);
+        paint.setShader(smailShader);
+        canvas.drawRect(100, 0, 1000, 400, paint);
+        canvas.restore();
+
+
+        canvas.save();
+        canvas.translate(0, 900);
+        paint.setShader(smailShader2);
+        canvas.drawRect(100, 0, 1000, 400, paint);
+        canvas.restore();
     }
 }

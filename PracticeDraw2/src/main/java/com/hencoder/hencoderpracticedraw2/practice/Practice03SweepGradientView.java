@@ -22,6 +22,11 @@ public class Practice03SweepGradientView extends View {
         paint.setShader(shader);
     }
 
+    /**
+     * SweepGradient 扫描渐变
+     * 又是一个渐变。「扫描渐变」这个翻译我也不知道精确不精确
+     */
+
     public Practice03SweepGradientView(Context context) {
         super(context);
     }

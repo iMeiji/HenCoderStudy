@@ -10,7 +10,7 @@
             android:title="@string/practice02"/>
         <item
             android:id="@+id/practice03"
-            android:title="Slideshow"/>
+            android:title="@string/practice03"/>
         <item
             android:id="@+id/practice04"
             android:title="Tools"/>

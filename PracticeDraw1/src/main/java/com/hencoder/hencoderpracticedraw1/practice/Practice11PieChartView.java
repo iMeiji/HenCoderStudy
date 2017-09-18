@@ -90,13 +90,13 @@ public class Practice11PieChartView extends View {
 
         // 直线绘制
         Paint paintLine = new Paint(Paint.ANTI_ALIAS_FLAG);
-        paintLine.setStrokeWidth(1);
+        paintLine.setStrokeWidth(2);
         paintLine.setStyle(Paint.Style.STROKE);
         paintLine.setColor(Color.LTGRAY);
 
         // 文字绘制
         Paint paintText = new Paint(Paint.ANTI_ALIAS_FLAG);
-        paintText.setTextSize(18);
+        paintText.setTextSize(26);
         paintText.setColor(Color.LTGRAY);
 
         // 起始角度 划过的角度

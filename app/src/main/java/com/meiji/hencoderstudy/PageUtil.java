@@ -44,24 +44,23 @@ public class PageUtil {
                 pageModels.add(new PageModel(R.string.title_fill_path, R.layout.practice_fill_path));
                 pageModels.add(new PageModel(R.string.title_text_path, R.layout.practice_text_path));
                 break;
-//            case R.id.practice02:
-//                pageModels.add(new PageModel(R.layout.sample_linear_gradient, R.string.title_linear_gradient, R.layout.practice_linear_gradient));
-//                pageModels.add(new PageModel(R.layout.sample_radial_gradient, R.string.title_radial_gradient, R.layout.practice_radial_gradient));
-//                pageModels.add(new PageModel(R.layout.sample_sweep_gradient, R.string.title_sweep_gradient, R.layout.practice_sweep_gradient));
-//                pageModels.add(new PageModel(R.layout.sample_bitmap_shader, R.string.title_bitmap_shader, R.layout.practice_bitmap_shader));
-//                pageModels.add(new PageModel(R.layout.sample_compose_shader, R.string.title_compose_shader, R.layout.practice_compose_shader));
-//                pageModels.add(new PageModel(R.layout.sample_lighting_color_filter, R.string.title_lighting_color_filter, R.layout.practice_lighting_color_filter));
-//                pageModels.add(new PageModel(R.layout.sample_color_mask_color_filter, R.string.title_color_matrix_color_filter, R.layout.practice_color_matrix_color_filter));
-//                pageModels.add(new PageModel(R.layout.sample_xfermode, R.string.title_xfermode, R.layout.practice_xfermode));
-//                pageModels.add(new PageModel(R.layout.sample_stroke_cap, R.string.title_stroke_cap, R.layout.practice_stroke_cap));
-//                pageModels.add(new PageModel(R.layout.sample_stroke_join, R.string.title_stroke_join, R.layout.practice_stroke_join));
-//                pageModels.add(new PageModel(R.layout.sample_stroke_miter, R.string.title_stroke_miter, R.layout.practice_stroke_miter));
-//                pageModels.add(new PageModel(R.layout.sample_path_effect, R.string.title_path_effect, R.layout.practice_path_effect));
-//                pageModels.add(new PageModel(R.layout.sample_shadow_layer, R.string.title_shader_layer, R.layout.practice_shadow_layer));
-//                pageModels.add(new PageModel(R.layout.sample_mask_filter, R.string.title_mask_filter, R.layout.practice_mask_filter));
-//                pageModels.add(new PageModel(R.layout.sample_fill_path, R.string.title_fill_path, R.layout.practice_fill_path));
-//                pageModels.add(new PageModel(R.layout.sample_text_path, R.string.title_text_path, R.layout.practice_text_path));
-//                break;
+
+            case R.id.practice03:
+                pageModels.add(new PageModel(R.string.title_draw_text, R.layout.practice_draw_text));
+                pageModels.add(new PageModel(R.string.title_static_layout, R.layout.practice_static_layout));
+                pageModels.add(new PageModel(R.string.title_set_text_size, R.layout.practice_set_text_size));
+                pageModels.add(new PageModel(R.string.title_set_typeface, R.layout.practice_set_typeface));
+                pageModels.add(new PageModel(R.string.title_set_fake_bold_text, R.layout.practice_set_fake_bold_text));
+                pageModels.add(new PageModel(R.string.title_set_strike_thru_text, R.layout.practice_set_strike_thru_text));
+                pageModels.add(new PageModel(R.string.title_set_underline_text, R.layout.practice_set_underline_text));
+                pageModels.add(new PageModel(R.string.title_set_text_skew_x, R.layout.practice_set_text_skew_x));
+                pageModels.add(new PageModel(R.string.title_set_text_scale_x, R.layout.practice_set_text_scale_x));
+                pageModels.add(new PageModel(R.string.title_set_text_align, R.layout.practice_set_text_align));
+                pageModels.add(new PageModel(R.string.title_get_font_spacing, R.layout.practice_get_font_spacing));
+                pageModels.add(new PageModel(R.string.title_measure_text, R.layout.practice_measure_text));
+                pageModels.add(new PageModel(R.string.title_get_text_bounds, R.layout.practice_get_text_bounds));
+                pageModels.add(new PageModel(R.string.title_get_font_metrics, R.layout.practice_get_font_metrics));
+                break;
         }
         return pageModels;
     }
