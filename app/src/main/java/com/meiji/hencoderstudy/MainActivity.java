@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity
             showFragment(getString(R.string.practice03), MainFragment.newInstance(R.id.practice03));
 
         } else if (id == R.id.practice04) {
+            showFragment(getString(R.string.practice04), MainFragment.newInstance(R.id.practice04));
 
         }
 

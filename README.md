@@ -10,7 +10,7 @@
 - [x] [HenCoder Android 开发进阶：UI 1-1 绘制基础](http://hencoder.com/ui-1-1)
 - [x] [HenCoder Android 开发进阶：UI 1-2 Paint 详解](http://hencoder.com/ui-1-2)
 - [x] [HenCoder Android 开发进阶：UI 1-3 文字的绘制](http://hencoder.com/ui-1-3)
-- [ ] [HenCoder Android 开发进阶：UI 1-4 Canvas 对绘制的辅助](http://hencoder.com/ui-1-4)
+- [x] [HenCoder Android 开发进阶：UI 1-4 Canvas 对绘制的辅助](http://hencoder.com/ui-1-4)
 - [ ] [HenCoder Android 开发进阶：UI 1-5 绘制顺序](http://hencoder.com/ui-1-5)
 - [ ] [HenCoder Android 开发进阶：UI 1-6 属性动画（上手篇）](http://hencoder.com/ui-1-6)
 
