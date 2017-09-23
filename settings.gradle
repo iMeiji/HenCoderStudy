@@ -1,1 +1,7 @@
-include ':app', ':PracticeDraw2', ':PracticeDraw1', ':PracticeDraw3', ':PracticeDraw4', ':PracticeDraw5'
+include ':app',
+        ':PracticeDraw2',
+        ':PracticeDraw1',
+        ':PracticeDraw3',
+        ':PracticeDraw4',
+        ':PracticeDraw5',
+        ':PracticeDraw6'

@@ -20,13 +20,14 @@ public class Practice14FlipboardView extends View {
     Bitmap bitmap;
     Camera camera = new Camera();
     int degree;
+    // 定义一个 degree 属性动画
     ObjectAnimator animator = ObjectAnimator.ofInt(this, "degree", 0, 180);
 
     {
         bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.maps);
 
-        animator.setDuration(2500);
-        animator.setInterpolator(new LinearInterpolator());
+        animator.setDuration(2500);//设置动画时长
+        animator.setInterpolator(new LinearInterpolator());//设置动画速度器
         animator.setRepeatCount(ValueAnimator.INFINITE);
         animator.setRepeatMode(ValueAnimator.REVERSE);
     }
@@ -58,7 +59,7 @@ public class Practice14FlipboardView extends View {
     @SuppressWarnings("unused")
     public void setDegree(int degree) {
         this.degree = degree;
-        invalidate();
+        invalidate();// 重绘界面 不断调用 onDraw()
     }
 
     @Override

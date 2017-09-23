@@ -11,9 +11,10 @@ ext {
 
     def android_support_version = "25.3.1"
 
-    dependencies = ["support-v4"     : 'com.android.support:support-v4:' + android_support_version,
-                    "appcompat-v7"   : 'com.android.support:appcompat-v7:' + android_support_version,
-                    "design"         : 'com.android.support:design:' + android_support_version,
-                    "support-core-ui": 'com.android.support:support-core-ui:' + android_support_version,
+    dependencies = ["support-v4"       : 'com.android.support:support-v4:' + android_support_version,
+                    "appcompat-v7"     : 'com.android.support:appcompat-v7:' + android_support_version,
+                    "design"           : 'com.android.support:design:' + android_support_version,
+                    "support-core-ui"  : 'com.android.support:support-core-ui:' + android_support_version,
+                    "constraint-layout": 'com.android.support.constraint:constraint-layout:1.0.2',
     ]
 }

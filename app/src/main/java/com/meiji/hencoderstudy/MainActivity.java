@@ -65,6 +65,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.practice05) {
             showFragment(getString(R.string.practice05), MainFragment.newInstance(R.id.practice05));
+
+        } else if (id == R.id.practice06) {
+            showFragment(getString(R.string.practice06), MainFragment.newInstance(R.id.practice06));
         }
 
         drawer.closeDrawer(GravityCompat.START);
