@@ -42,7 +42,7 @@ public class Practice05MultiProperties extends ConstraintLayout {
         animateBt.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO 在这里处理点击事件，同时对多个属性做动画
+                // 在这里处理点击事件，同时对多个属性做动画
                 if (!animated) {
                     imageView.animate()
                             .translationX(Utils.dpToPixel(200))

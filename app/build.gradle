@@ -37,4 +37,5 @@ dependencies {
     compile project(':PracticeDraw4')
     compile project(':PracticeDraw5')
     compile project(':PracticeDraw6')
+    compile project(':PracticeDraw7')
 }

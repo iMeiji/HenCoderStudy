@@ -4,4 +4,5 @@ include ':app',
         ':PracticeDraw3',
         ':PracticeDraw4',
         ':PracticeDraw5',
-        ':PracticeDraw6'
+        ':PracticeDraw6',
+        ':PracticeDraw7'
