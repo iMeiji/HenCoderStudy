@@ -11,4 +11,5 @@
     <string name="title_draw_path">drawPath()</string>
     <string name="title_draw_histogram">直方图</string>
     <string name="title_draw_pie_chart">饼图</string>
+    <string name="title_draw_circle_per">百分比圆形</string>
 </resources>

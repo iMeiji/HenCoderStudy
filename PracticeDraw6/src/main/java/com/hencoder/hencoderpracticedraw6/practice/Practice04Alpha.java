@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.hencoder.hencoderpracticedraw6.R;
+import com.meiji.hencoderstudy.practicedraw6.R;
+
 
 public class Practice04Alpha extends RelativeLayout {
     Button animateBt;
@@ -32,8 +33,8 @@ public class Practice04Alpha extends RelativeLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
-        animateBt = (Button) findViewById(R.id.animateBt);
-        imageView = (ImageView) findViewById(R.id.imageView);
+        animateBt = findViewById(R.id.animateBt);
+        imageView = findViewById(R.id.imageView);
 
         animateBt.setOnClickListener(new OnClickListener() {
             @Override

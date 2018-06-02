@@ -10,7 +10,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
-import com.hencoder.hencoderpracticedraw5.R;
+import com.meiji.hencoderstudy.practicedraw5.R;
+
 
 public class Practice01AfterOnDrawView extends AppCompatImageView {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);

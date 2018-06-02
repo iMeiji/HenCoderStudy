@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import com.hencoder.hencoderpracticedraw7.R;
+import com.meiji.hencoderstudy.practicedraw7.R;
+
 
 public class Sample05AnimatorSetLayout extends RelativeLayout {
     View view;
@@ -31,7 +32,7 @@ public class Sample05AnimatorSetLayout extends RelativeLayout {
         super.onAttachedToWindow();
 
         view = findViewById(R.id.objectAnimatorView);
-        animateBt = (Button) findViewById(R.id.animateBt);
+        animateBt = findViewById(R.id.animateBt);
 
         animateBt.setOnClickListener(new OnClickListener() {
             @Override

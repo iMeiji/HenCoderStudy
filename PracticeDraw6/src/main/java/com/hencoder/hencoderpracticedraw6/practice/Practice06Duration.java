@@ -12,8 +12,8 @@ import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.hencoder.hencoderpracticedraw6.R;
 import com.hencoder.hencoderpracticedraw6.Utils;
+import com.meiji.hencoderstudy.practicedraw6.R;
 
 public class Practice06Duration extends LinearLayout {
     SeekBar durationSb;
@@ -40,8 +40,8 @@ public class Practice06Duration extends LinearLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
-        durationSb = (SeekBar) findViewById(R.id.durationSb);
-        durationValueTv = (TextView) findViewById(R.id.durationValueTv);
+        durationSb = findViewById(R.id.durationSb);
+        durationValueTv = findViewById(R.id.durationValueTv);
         durationValueTv.setText(getContext().getString(R.string.ms_with_value, duration));
         durationSb.setMax(10);
         durationSb.setProgress(1);
@@ -63,8 +63,8 @@ public class Practice06Duration extends LinearLayout {
             }
         });
 
-        animateBt = (Button) findViewById(R.id.animateBt);
-        imageView = (ImageView) findViewById(R.id.imageView);
+        animateBt = findViewById(R.id.animateBt);
+        imageView = findViewById(R.id.imageView);
         animateBt.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {

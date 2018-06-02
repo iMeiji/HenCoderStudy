@@ -10,7 +10,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
-import com.hencoder.hencoderpracticedraw5.R;
+import com.meiji.hencoderstudy.practicedraw5.R;
+
 
 public class Sample01AfterOnDrawView extends AppCompatImageView {
     public static final boolean DEBUG = true;

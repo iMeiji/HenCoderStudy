@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.hencoder.hencoderpracticedraw6.R;
 import com.hencoder.hencoderpracticedraw6.Utils;
+import com.meiji.hencoderstudy.practicedraw6.R;
 
 public class Sample05MultiProperties extends ConstraintLayout {
     Button animateBt;
@@ -32,8 +32,8 @@ public class Sample05MultiProperties extends ConstraintLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
-        animateBt = (Button) findViewById(R.id.animateBt);
-        imageView = (ImageView) findViewById(R.id.imageView);
+        animateBt = findViewById(R.id.animateBt);
+        imageView = findViewById(R.id.imageView);
         imageView.setScaleX(0);
         imageView.setScaleY(0);
         imageView.setAlpha(0f);

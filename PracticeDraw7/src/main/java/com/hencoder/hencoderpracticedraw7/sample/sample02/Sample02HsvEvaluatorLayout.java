@@ -10,7 +10,8 @@ import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import com.hencoder.hencoderpracticedraw7.R;
+import com.meiji.hencoderstudy.practicedraw7.R;
+
 
 public class Sample02HsvEvaluatorLayout extends RelativeLayout {
     Sample02HsvEvaluatorView view;
@@ -32,8 +33,8 @@ public class Sample02HsvEvaluatorLayout extends RelativeLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
-        view = (Sample02HsvEvaluatorView) findViewById(R.id.objectAnimatorView);
-        animateBt = (Button) findViewById(R.id.animateBt);
+        view = findViewById(R.id.objectAnimatorView);
+        animateBt = findViewById(R.id.animateBt);
 
         animateBt.setOnClickListener(new OnClickListener() {
             @Override

@@ -24,8 +24,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
-import com.hencoder.hencoderpracticedraw6.R;
 import com.hencoder.hencoderpracticedraw6.Utils;
+import com.meiji.hencoderstudy.practicedraw6.R;
 
 public class Sample07Interpolator extends LinearLayout {
     Spinner spinner;
@@ -71,10 +71,10 @@ public class Sample07Interpolator extends LinearLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
-        spinner = (Spinner) findViewById(R.id.interpolatorSpinner);
+        spinner = findViewById(R.id.interpolatorSpinner);
 
-        animateBt = (Button) findViewById(R.id.animateBt);
-        imageView = (ImageView) findViewById(R.id.imageView);
+        animateBt = findViewById(R.id.animateBt);
+        imageView = findViewById(R.id.imageView);
         animateBt.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {

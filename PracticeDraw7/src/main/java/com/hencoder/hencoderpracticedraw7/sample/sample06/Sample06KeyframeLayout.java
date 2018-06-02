@@ -10,7 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import com.hencoder.hencoderpracticedraw7.R;
+import com.meiji.hencoderstudy.practicedraw7.R;
+
 
 public class Sample06KeyframeLayout extends RelativeLayout {
     Sample06KeyframeView view;
@@ -32,8 +33,8 @@ public class Sample06KeyframeLayout extends RelativeLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
-        view = (Sample06KeyframeView) findViewById(R.id.objectAnimatorView);
-        animateBt = (Button) findViewById(R.id.animateBt);
+        view = findViewById(R.id.objectAnimatorView);
+        animateBt = findViewById(R.id.animateBt);
 
         animateBt.setOnClickListener(new OnClickListener() {
             @Override
