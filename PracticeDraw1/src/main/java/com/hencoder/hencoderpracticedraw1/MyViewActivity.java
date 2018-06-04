@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import com.hencoder.hencoderpracticedraw1.practice.Practice12CirclePercentage;
+import com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView;
 import com.meiji.hencoderstudy.practicedraw1.R;
 
 /**
@@ -14,7 +15,8 @@ import com.meiji.hencoderstudy.practicedraw1.R;
 public class MyViewActivity extends AppCompatActivity {
 
     private Practice12CirclePercentage circle;
-    private Practice12CirclePercentage circle2;
+    private Practice13PercentLineView line;
+    private Practice13PercentLineView line2;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -29,10 +31,9 @@ public class MyViewActivity extends AppCompatActivity {
                 .addItem(Color.BLUE, 1)
                 .addItem(Color.GREEN, 2)
                 .show();
-        circle2 = findViewById(R.id.circle2);
-        circle2.addItem(Color.RED, 33)
-                .addItem(Color.BLUE, 122)
-                .addItem(Color.GREEN, 233)
-                .show();
+        line = findViewById(R.id.line);
+        line2 = findViewById(R.id.line2);
+        line.setLinetColor(Color.BLACK);
+        line2.setPercentage(0.2f);
     }
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -10,9 +11,77 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
 
-    <com.hencoder.hencoderpracticedraw1.practice.Practice12CirclePercentage
-        android:id="@+id/circle2"
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:id="@+id/line"
         android:layout_width="match_parent"
-        android:layout_height="200dp"/>
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.1"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.2"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.3"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.4"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.5"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.6"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.7"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.8"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="0.9"/>
+
+    <com.hencoder.hencoderpracticedraw1.practice.Practice13PercentLineView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:line_color="@color/colorAccent"
+        app:line_height="10dp"
+        app:line_percentage="1"/>
 
 </LinearLayout>
